@@ -1,0 +1,199 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% This is a modified ONE COLUMN version of
+% the following template:
+% 
+% Deedy - One Page Two Column Resume
+% LaTeX Template
+% Version 1.1 (30/4/2014)
+%
+% Original author:
+% Debarghya Das (http://debarghyadas.com)
+%
+% Original repository:
+% https://github.com/deedydas/Deedy-Resume
+%
+% IMPORTANT: THIS TEMPLATE NEEDS TO BE COMPILED WITH XeLaTeX
+%
+% This template uses several fonts not included with Windows/Linux by
+% default. If you get compilation errors saying a font is missing, find the line
+% on which the font is used and either change it to a font included with your
+% operating system or comment the line out to use the default font.
+% 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% 
+% TODO:
+% 1. Integrate biber/bibtex for article citation under publications.
+% 2. Figure out a smoother way for the document to flow onto the next page.
+% 3. Add styling information for a "Projects/Hacks" section.
+% 4. Add location/address information
+% 5. Merge OpenFont and MacFonts as a single sty with options.
+% 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% CHANGELOG:
+% v1.1:
+% 1. Fixed several compilation bugs with \renewcommand
+% 2. Got Open-source fonts (Windows/Linux support)
+% 3. Added Last Updated
+% 4. Move Title styling into .sty
+% 5. Commented .sty file.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% Known Issues:
+% 1. Overflows onto second page if any column's contents are more than the
+% vertical limit
+% 2. Hacky space on the first bullet point on the second column.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\documentclass[]{deedy-resume-openfont}
+
+
+\begin{document}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     LAST UPDATED DATE
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\lastupdated
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     TITLE NAME
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\namesection{Ning}{Liu}{ 
+Ph.D in Bioinformatics, in progress\\
+\urlstyle{same}\url{https://github.com/ningbioinfostruggling} \\
+\href{mailto:ning.liu@adelaide.edu.au}{ning.liu@adelaide.edu.au} | Twitter: @lnly0311}
+
+
+%\href{http://linkedin.com/in/12346}{http://linkedin.com/in/12346}
+
+%\begin{center}
+%\huge\color{subheadings}\textbf{Bioinformatician}
+%\end{center}
+
+\section{Research Expertise keywords}
+\begin{flushleft}
+Shell (Bash) \textbullet{} Python \textbullet{} R \textbullet{} Pipeline \textbullet{} NGS data \textbullet{} Hi-C \textbullet{} SNPs \textbullet{} Epigenetics \textbullet{} Data integration \\ 
+\end{flushleft}
+
+\section{Research Experience}
+
+\runsubsection{Jimmy Breen's lab, SAHMRI}
+%\descript{| PhD Student}
+\location{Feb. 2019 - Jun. 2020 | Adelaide, Australia}
+\location{Collaboration: Simon Barry's lab in Women's and Children's Hospital}
+Developing computation pipeline to filter T1D risk variants and investigating the potential mechanisms of the identified SNPs.
+Main responsibilities:
+\begin{tightemize}
+\item Analysing Hi-C, ATAC-seq, ChIP-seq and SNPs data.
+\item Building the filtering computational pipeline.
+\item Investigating SNPs by integrating with regulatory T cell-specific epigenome data.
+\item Journal article writing.
+\end{tightemize}
+\sectionsep
+
+\runsubsection{Jimmy Breen's lab, SAHMRI}
+%\descript{| P.hD Student}
+\location{Jan. 2020 - present | Adelaide, Australia}
+\location{Collaboration: ‪Hamid Alinejad-Rokny's lab in UNSW}
+Identifying candidate enhancers of human cell lines and tissues from statistically signficant Hi-C interactions of public Hi-C data.
+Main responsibilities:
+\begin{tightemize}
+\item Public Hi-C \& capture Hi-C data mining.
+\item Building a computational pipeline to analyse Hi-C data based on the instruction of 4DN project.
+\item Data integration and downstream analysis.
+\item Journal article writing.
+\end{tightemize}
+\sectionsep
+
+\runsubsection{Jimmy Breen's lab, SAHMRI}
+%\descript{| P.hD Student}
+\location{Jul. 2020 - Present | Adelaide, Australia}
+\location{Collaboration: Sam Buckberry's lab in the University of Western Australia}
+Analysing Hi-C data to identify A/B comparts and compared the genome compartmentalisation among different conditions
+Main responsibilities:
+\begin{tightemize}
+\item Analysing Hi-C data and identifying and comparing A/B compartments under different experimental conditions.
+\end{tightemize}
+\sectionsep
+
+\runsubsection{Bioinformatics hub, University of Adelaide}
+%\descript{| P.hD Student}
+\location{Oct. 2018 - Jan. 2019 | Adelaide, Australia}
+\location{Collaboration: John Williams' lab in the Davies Research Centre, University of Adelaide}
+Identifying and comparing toplogically-associated domains (TADs) between cattle Angus breed and Brahman breed.
+Main responsibilities:
+\begin{tightemize}
+\item Analysing cattle Hi-C data and identifying TADs from Hi-C interactions.
+\end{tightemize}
+\sectionsep
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     Publication & Award
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Publications \& Awards}
+\runsubsection{Publications}\\
+\location{Journal articles}
+\textbf{Liu, N.}, Sadlon, T., Wong, Y.Y., Pederson, S.M., Breen, J. and Barry, S.C., 2020. \textbf{3DFAACTS-SNP: Using regulatory T cell-specific epigenomics data to uncover candidate mechanisms of Type-1 Diabetes (T1D) risk.} bioRxiv. (peer review in progress)\\ 
+\textbf{Liu, N.}, Low, W.Y., Alinejad-Rokny, H., Pederson, S., Sadlon, T., Barry, S. and Breen, J., 2020. \textbf{Seeing the forest through the trees: Identifying functional interactions from Hi-C.} bioRxiv. (peer review in progress)\\
+Brown, C.Y., Sadlon, T., Hope, C.M., Wong, Y.Y., Wong, S., \textbf{Liu, N.}, Withers, H., Brown, K., Bandara, V., Gundsambuu, B. and Pederson, S., 2020. \textbf{Molecular Insights Into Regulatory T-Cell Adaptation to Self, Environment, and Host Tissues: Plasticity or Loss of Function in Autoimmune Disease. }Frontiers in Immunology, 11, p.1269.\\
+Wan, Q., Leemaqz, S.Y.L., Pederson, S.M., McCullough, D., McAninch, D.C., Jankovic-Karasoulos, T., Smith, M.D., Bogias, K.J., \textbf{Liu, N.}, Breen, J. and Roberts, C.T., 2019. \textbf{Quality control measures for placental sample purity in DNA methylation array analyses.} Placenta, 88, pp.8-11.\\
+
+\sectionsep
+
+\location{Conference Poster}
+\textbf{Ning Liu}, Timothy Sadlon, Stephen Pederson, Simon Barry \& James Breen; \textbf{Investigating computational analysis pipelines and genomic proximity interactions in T lymphocytes}; ABACBS 2017 Conference and Lorne Genome 2018 Conference; November 15, 2017 and February 13, 2018\\ 
+\sectionsep
+
+\runsubsection{Awards}\\
+%\descript{| }
+%\location{Adelaide, Australia}
+\textbf{Best Poster Talk of COMBINE Symposium 2019} from ABACBS.\\
+\textbf{Travel Grant of ABACBS Conference 2019} from ABACBS.\\
+\textbf{Travel Grant of ABACBS Conference 2018} from ABACBS.\\
+\textbf{Travel Grant of EMBL Australia PhD Course 2018} from EMBL Australia.\\
+\textbf{Outstanding Academic Achievement Award 2015-2016} from Faculty of Sciences, University of Adelaide.\\
+\textbf{Outstanding Academic Achievement Award 2016-2017} from Faculty of Sciences, University of Adelaide.\\
+\sectionsep
+
+\section{Education}
+\runsubsection{SAHMRI \& Robinson Research Institute, University of Adelaide, Australia}
+\descript{| PhD of Bioinformatics (Medicine)}
+\location{School of Paediatrics and Reproductive Medicine,
+Expected October 2020 | Adelaide, SA }
+\sectionsep
+
+\runsubsection{University of Adelaide, Australia}
+\descript{| Master of Biotechnology (Biomedical)}
+\location{School of Molecular and Microbiology Science,
+Completed Jul 2017 | Adelaide, SA \textbullet{} GPA: 6.6/7.0}
+\sectionsep
+
+\runsubsection{Xia'men University, China}
+\descript{| Bachelor of Science}
+\location{Major in Immunology, Biotechnology and Genetics, and minor in C programing and biostatistics, School of Life Science | Completed Jun 2015 | Xia'men, ChinaMajor \textbullet{} GPA: 3.3/4.0}
+\sectionsep
+
+\section{Ohter Activities}
+Workshop tutor of a bioinforamtics workshop: Fall into bioinformatics in 2019.
+Workshop tutor of a bioinforamtics workshop: Spring into bioinformatics in 2019.
+Workshop tutor of RAdelaide workshop 2018.
+Workshop tutor of RAdelaide workshop 2017.
+Workshop instructor of postgraduate course Genomics Applications (BIOINF 7150) in 2020.\\
+Workshop tutor of postgraduate course Bioinformatics and Systems Modelling (BIOTECH 7005) in 2018.\\
+Contributer of R packge \textit{rGMAP}.\\
+Acitve member of ABACAS since 2016.\\
+Executive committee of COMBINE in 2018 \& 2019.\\
+Executive committee of COMBINE SYMPOSIUM 2017.\\
+Executive committee of COMBINE SYMPOSIUM 2018.\\
+Membership in Golden Key International Honour Society from 2015.\\
+
+\end{document}  \documentclass[]{article}
