@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017) (preloaded format=xelatex 2017.10.11)  27 JAN 2021 09:56
+This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017) (preloaded format=xelatex 2017.10.11)  12 FEB 2021 16:05
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -892,12 +892,12 @@ pt=latn;language=DFLT;!
 ]
 Missing character: There is no ‪ in font [fonts/lato/Lato-Lig]/OT:script=latn;l
 anguage=DFLT;mapping=tex-text;color=2B2B2BFF ;!
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 202.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 204.
  [2]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 202.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 204.
  (./cv.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 202.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 202.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 204.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 204.
 
 
 LaTeX Font Warning: Size substitutions with differences
@@ -906,14 +906,14 @@ LaTeX Font Warning: Size substitutions with differences
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 202.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 204.
  ) 
 Here is how much of TeX's memory you used:
- 18514 strings out of 493005
- 347741 string characters out of 6134595
+ 18512 strings out of 493005
+ 347632 string characters out of 6134595
  434714 words of memory out of 5000000
- 22355 multiletter control sequences out of 15000+600000
- 6140 words of font info for 60 fonts, out of 8000000 for 9000
+ 22354 multiletter control sequences out of 15000+600000
+ 6132 words of font info for 59 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  52i,5n,119p,10489b,325s stack positions out of 5000i,500n,10000p,200000b,80000s
 
